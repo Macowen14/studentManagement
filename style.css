@@ -1,0 +1,129 @@
+.navbar {
+  z-index: 999;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo .navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* hero section */
+.hero {
+  position: relative;
+  top: 50px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover; /* Ensures the image covers the div and maintains its aspect ratio */
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 1em;
+}
+/* about section */
+.about {
+  position: relative;
+  padding: 30px;
+  top: 25px;
+  background: #f5f5f5;
+  max-height: max-content;
+}
+.about .school-text {
+  padding: 10px;
+}
+.about .school-text h4 {
+  text-align: center;
+}
+
+/* Course section */
+.courses {
+  position: relative;
+  top: 50px;
+}
+.courses .row {
+  padding: 10px 5px;
+}
+.courses h3 {
+  text-align: center;
+}
+/* form section */
+.admission_form {
+  position: relative;
+  top: 60px;
+  background: whitesmoke;
+  padding-top: 10px;
+}
+.admission_form h3 {
+  text-align: center;
+  margin-bottom: 13px;
+}
+form {
+  max-width: 500px;
+  margin: auto auto;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 13px;
+}
+.input-div {
+  display: flex;
+  margin: 10px auto;
+}
+.form-control {
+  width: 80%;
+  margin-left: 10px;
+}
+.form-control:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.input-div .btn {
+  width: 90%;
+}
+
+/* footer */
+footer {
+  position: relative;
+  top: 70px;
+}
+
+/* Teachers section */
+.teachers {
+  position: relative;
+  top: 50px;
+  padding: 20px; /* Adjust padding as needed */
+}
+.teachers .teacher {
+  text-align: center; /* Center align each teacher/administrator block */
+  margin-bottom: 30px; /* Add space between each administrator */
+}
+.teachers .teacher img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;
+  border-radius: 50%;
+}

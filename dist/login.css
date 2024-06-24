@@ -1,0 +1,28 @@
+.body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.form-div {
+  max-width: 600px;
+  background: skyblue;
+  padding: 20px;
+  border-radius: 13px;
+}
+.form-div form {
+  padding: 25px auto;
+}
+.form-div form .input-div {
+  margin: 18px auto;
+}
+.form-div form .input-div .form-label {
+  margin-right: 10px;
+}
+.form-div form .btn {
+  width: 70%;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 21px;
+}/*# sourceMappingURL=login.css.map */
