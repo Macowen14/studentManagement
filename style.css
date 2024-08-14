@@ -116,14 +116,15 @@ footer {
 .teachers {
   position: relative;
   top: 50px;
-  padding: 20px; /* Adjust padding as needed */
+  padding: 20px;
 }
 .teachers .teacher {
-  text-align: center; /* Center align each teacher/administrator block */
-  margin-bottom: 30px; /* Add space between each administrator */
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 18px;
 }
-.teachers .teacher img {
-  max-width: 100%; /* Ensure images are responsive */
-  height: auto;
-  border-radius: 50%;
+.teacher .img {
+  width: 150px;
+  height: 150px;
+  object-position: center;
 }

@@ -14,7 +14,7 @@ session_start();
 </head>
 
 <body background="./images/NewAdminFront.jpg" class="body">
-    <a href="index.php" role="button" class="btn btn-outline-primary">Home</a>
+    <a href="index.php" role="button" class="btn btn-outline-dark">Home</a>
     <center>
         <div class="form-div">
             <h2>Login Form</h2>

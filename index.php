@@ -60,7 +60,7 @@ if (!$result) {
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
                         echo '<div class="teacher col-md-3 clo-sm-6">';
-                        echo '<img src="' . $row["image"] . '" alt="' . $row["name"] . '" class="img-fluid">';
+                        echo '<img src="' . $row["image"] . '" alt="' . $row["name"] . '" class="img">';
                         echo '<h4>' . $row["name"] . '</h4>';
                         echo '<p>' . $row["description"] . '</p>';
                         echo '</div>';
